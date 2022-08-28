@@ -29,6 +29,7 @@ $(document).ready(function(){
         } setTimeout(showAll,100);
     });
 
+
     $('.listasopciones .opcion[category="youtube"]').addClass('cambiardor');
 
     //filtrado
@@ -46,6 +47,16 @@ $(document).ready(function(){
         $('.reproductor[category="'+catProduct+'"]').show();
         
     });
+
+    /*$(".opcion").on("click", function(){
+
+        if($(".reproductor").is(":visible")){
+            $(".reproductor").stop();
+        }else{
+            $(".reproductor").show();
+        }
+        
+    })*/
         
     
 });
